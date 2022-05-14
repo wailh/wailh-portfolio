@@ -209,7 +209,7 @@
 @media all and (min-width: 450px) {
   .home-container .brief-intro h2 {
     font-size: 2.4rem;
-    font-weight: 800;
+    font-weight: 600;
   }
 
   .home-container .brief-intro .text {
@@ -219,6 +219,6 @@
 
 @media all and (min-width: 768px) {
   .home-container .brief-intro h2 {
-    font-size: 3rem;
+    font-size: 3rem !important;
   }
 }

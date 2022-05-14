@@ -12,11 +12,6 @@
 
   --lineHeight: 1.7;
 
-  /* font size variables */
-  --standardFontSize: 1rem;
-  --mediumFontSize: 1.5rem;
-  --largeFontSize: 2rem;
-
   /* //colors variables */
   --darkBlue: #336699;
   --lightBlue: #86bbd8;
@@ -24,18 +19,6 @@
   --lightGrey: #e9ecef;
   --white: #fff;
   --orange: #ff9500;
-
-  /* //spacing variables */
-  --smallSpacing: 0.5rem;
-  --baseSpacing: 1rem;
-  --mediumSpacing: 1.5rem;
-  --doubleSpacing: 2rem;
-
-  /* //media query breakpoints */
-  --breakPointMobile: 576px;
-  --breakPointTablet: 768px;
-  --breakPointDesktop: 1024px;
-  --breakPointDesktopLg: 1400px;
 }
 
 * {
@@ -43,7 +26,7 @@
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif !important;
   color: #2b2b2b;
   background-color: var(--white);
   line-height: 1.7;

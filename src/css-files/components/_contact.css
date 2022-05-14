@@ -4,6 +4,15 @@
   color: var(--white) !important;
 }
 
+.wave-decoration {
+  background-color: var(--white);
+  width: 100%;
+}
+
+.wave-decoration svg {
+  display: block;
+}
+
 .contact .text {
   max-width: 800px;
   padding: 1rem 2rem;
@@ -55,13 +64,13 @@
 
 .default-side {
   background-color: var(--orange);
-  border: 7px solid var(--white);
+  border: 5px solid var(--white);
   transform: translateZ(30px);
 }
 .default-side a {
   color: var(--white);
   width: 100%;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 .hover-side {

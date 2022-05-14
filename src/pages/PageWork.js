@@ -94,6 +94,7 @@ const PageWork = () => {
                     moreInfo={projectData.moreInfo}
                     livesite={projectData.livesite}
                     github={projectData.github}
+                    redux={projectData.redux}
                     key={i}
                   />
                 );

@@ -40,6 +40,7 @@
 import recipeThumbImg from '../assets/assets/recipes.PNG';
 import portfolioThumbImg from '../assets/assets/portfolio.PNG';
 import weatherAppThumbImg from '../assets/assets//weather.PNG';
+import phooneking from '../assets/assets//phooneking.PNG';
 
 
 export const rawProjectData = [
@@ -52,6 +53,19 @@ export const rawProjectData = [
     thumbnailImgUrl: recipeThumbImg,
     livesite: 'https://wail-recipes.herokuapp.com/',
     github: 'https://github.com/wailh/Recipe-App/tree/master',
+    redux: 'https://recipes-app-redux.herokuapp.com/',
+    category: 'featured',
+  },
+
+  {
+    id: 'phoneStore',
+    title: 'PhooneKing',
+    briefDescription:
+      'An ecommerce app for selling phones',
+    tags: ['React', 'HTML', 'Bootstrap', 'Sentry', 'styled-component', 'GitHub'],
+    thumbnailImgUrl: phooneking,
+    livesite: 'https://phooneking.herokuapp.com/',
+    github: 'https://github.com/wailh/phone-ecommerce',
     category: 'featured',
   },
   // {

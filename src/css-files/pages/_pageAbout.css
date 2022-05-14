@@ -83,7 +83,7 @@
   font-family: "Poppins", sans-serif;
 }
 
-h2 {
+.about-container .interested-topics h2 {
   max-width: 440px;
 }
 
@@ -100,11 +100,11 @@ h2 {
 
 @media all and (min-width: 768px) {
   .skills ul {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr !important;
   }
 
   .interested-topics h2 {
-    font-size: 2rem;
+    font-size: 2rem !important;
   }
 
   .interested-topics p.topics-text {

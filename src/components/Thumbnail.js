@@ -9,6 +9,7 @@ const Thumbnail = ({
   thumbnailImgUrl,
   livesite,
   github,
+  redux
 }) => {
   return (
     <div className={`project-thumbnail project-thumbnail-${id}`}>
@@ -37,6 +38,11 @@ const Thumbnail = ({
             {github && (
               <a href={github} target="_blank" rel="noreferrer">
                 GitHub
+              </a>
+            )}
+            {redux && (
+              <a href={redux} target="_blank" rel="noreferrer">
+                with redux
               </a>
             )}
           </div>
