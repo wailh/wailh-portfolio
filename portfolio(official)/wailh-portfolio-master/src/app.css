@@ -1,0 +1,42 @@
+:root {
+  --mainBlue: rgb(11, 20, 61);
+  --middleBlue: rgb(4, 24, 116);
+  --lightBlue: rgb(8, 158, 245);
+  --mainYellow: rgb(255, 251, 6);
+  --mainOrange: rgb(255, 85, 6);
+  --mainWhite: #fff;
+  --mainDanger: #f00;
+  --mainDark: #000;
+  --headingFont: "Poppins", sans-serif;
+  --bodyTextFont: "Open Sans", sans-serif;
+
+  --lineHeight: 1.7;
+
+  /* //colors variables */
+  --darkBlue: #336699;
+  --lightBlue: #86bbd8;
+  --darkGrey: #2b2b2b;
+  --lightGrey: #e9ecef;
+  --white: #fff;
+  --orange: #ff9500;
+}
+
+* {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Open Sans", sans-serif !important;
+  color: #2b2b2b;
+  background-color: var(--white);
+  line-height: 1.7;
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif !important;
+}

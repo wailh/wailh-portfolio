@@ -1,0 +1,15 @@
+a.url-link {
+  display: inline-block;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9rem;
+  padding: 0.3rem 0.5rem;
+  margin: 0.5rem 1rem 0 0;
+  min-width: 135px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  background-color: var(--darkGrey);
+  color: var(--white);
+}
+a.url-link:hover {
+  background-color: rgba(var(--darkGrey), 0.9);
+}

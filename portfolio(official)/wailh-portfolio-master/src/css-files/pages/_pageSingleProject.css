@@ -1,0 +1,25 @@
+/* // To view style sheet for single project details, please check _single-project-detail.scss */
+
+/* // Styling for accidently go into a single movie page via URL that does not have the movie detail yet */
+.single-project-container .no-project-detail {
+  margin-top: 2rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.single-project-container .no-project-detail h1 {
+  margin: 1rem 0;
+}
+.single-project-container .no-project-detail .button-group {
+  margin-top: 0.5rem;
+}
+.single-project-container .no-project-detail .button-group a:first-of-type {
+  margin-right: 1rem;
+}
+.single-project-container .no-project-detail .button-group a {
+  color: var(--white);
+  background-color: var(--darkBlue);
+  padding: 0.3rem 0.5rem;
+}
