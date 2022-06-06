@@ -2,7 +2,7 @@
 
 A portfolio website that was designed and developed as a platform to showcase Djihad Hamdi's development skills as a front-end developer.
 
-[Live Site](https://wailh-portfolio.herokuapp.com/)
+[Live Site](https://629af8b47918933ae4364674--wail-hamdi-portfolio.netlify.app/)
 
 ## Table of contents
 
