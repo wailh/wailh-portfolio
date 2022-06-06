@@ -132,34 +132,58 @@
 }
 
 /* ***** ------ CUSTOM STYLING BASED ON PROJECT ------ ***** */
-/* styling specific for project MovieWave thumbnail */
-.project-thumbnail-moviewave {
+/* styling specific for project snack world thumbnail */
+.project-thumbnail-snackWorld {
+  background-color: #f5f5f5;
+}
+
+.project-thumbnail-snackWorld h2,
+p,
+li {
+  color: var(--darkGrey);
+}
+
+.project-thumbnail-snackWorld .tools-list li {
+  border-color: var(--mainDark);
+}
+
+.project-thumbnail-snackWorld .action-buttons a {
+  color: var(--mainDark);
+  border-color: var(--mainDark);
+  transition: border 0.3s ease-in-out;
+}
+.project-thumbnail-snackWorld .action-buttons:hover,
+.project-thumbnail-snackWorld .action-buttons:focus {
+  border-color: #ddb829;
+}
+/* styling specific for project recipesApp thumbnail */
+.project-thumbnail-recipesApp {
   background-color: #0f182b;
 }
-.project-thumbnail-moviewave h2 {
+.project-thumbnail-recipesApp h2 {
   color: var(--white);
 }
 
-.project-thumbnail-moviewave p {
+.project-thumbnail-recipesApp p {
   color: var(--white);
 }
 
-.project-thumbnail-moviewave .tools-list {
+.project-thumbnail-recipesApp .tools-list {
   color: var(--white);
 }
 
-.project-thumbnail-moviewave .tools-list li {
+.project-thumbnail-recipesApp .tools-list li {
   border-color: var(--white);
   color: var(--white);
 }
 
-.project-thumbnail-moviewave .action-buttons a {
+.project-thumbnail-recipesApp .action-buttons a {
   color: var(--white);
   border-color: var(--white);
   transition: border 0.3s ease-in-out;
 }
-.project-thumbnail-moviewave .action-buttons a:hover,
-.project-thumbnail-moviewave .action-buttons a:focus {
+.project-thumbnail-recipesApp .action-buttons a:hover,
+.project-thumbnail-recipesApp .action-buttons a:focus {
   border-color: #ef233c;
 }
 
@@ -168,37 +192,9 @@
   background-color: #eddcd2;
 }
 
-/* styling specific for project Tranquil Tofino Cabins thumbnail */
-.project-thumbnail-tranquil-tofino-cabins {
-  background-color: #eddcd2;
-}
-
-/* styling specific for project Code Breaker thumbnail */
+/* styling specific for project weather app thumbnail */
 .project-thumbnail-weather-app {
   background-color: #edf2fb;
 }
 
-/* styling specific for project Code Breaker thumbnail */
-.project-thumbnail-codeBreaker {
-  background-color: #7e674d;
-}
 
-.project-thumbnail-codeBreaker h2,
-p,
-li {
-  color: var(--darkGrey);
-}
-
-.project-thumbnail-codeBreaker .tools-list li {
-  border-color: var(--mainDark);
-}
-
-.project-thumbnail-codeBreaker .action-buttons a {
-  color: var(--white);
-  border-color: var(--white);
-  transition: border 0.3s ease-in-out;
-}
-.project-thumbnail-codeBreaker .action-buttons:hover,
-.project-thumbnail-codeBreaker .action-buttons:focus {
-  border-color: #ddb829;
-}

@@ -41,11 +41,23 @@ import recipeThumbImg from '../assets/assets/recipes.PNG';
 import portfolioThumbImg from '../assets/assets/portfolio.PNG';
 import weatherAppThumbImg from '../assets/assets//weather.PNG';
 import phooneking from '../assets/assets//phooneking.PNG';
+import snackworld from '../assets/assets//snackworld.PNG';
 
 
 export const rawProjectData = [
+    {
+    id: 'snackWorld',
+    title: 'SnackWorld',
+    briefDescription:
+      'A restaurant menu that offers a lot of foods to clients',
+    tags: ['React', 'HTML', 'Css', 'LocalStorage', 'Redux', 'GitHub'],
+    thumbnailImgUrl: snackworld,
+    livesite: 'https://629ba73c5413212c2e8f7a16--snackworld.netlify.app/',
+    github: 'https://github.com/wailh/SnackWorld',
+    category: 'featured',
+  },
   {
-    id: 'moviewave',
+    id: 'recipesApp',
     title: 'RecipesApp',
     briefDescription:
       'A site for creative recipes',
@@ -62,12 +74,13 @@ export const rawProjectData = [
     title: 'PhooneKing',
     briefDescription:
       'An ecommerce app for selling phones',
-    tags: ['React', 'HTML', 'Bootstrap', 'Sentry', 'styled-component', 'GitHub'],
+    tags: ['React', 'HTML', 'Bootstrap', 'Sentry', 'LocalStorage', 'styled-component', 'GitHub'],
     thumbnailImgUrl: phooneking,
     livesite: 'https://phooneking.herokuapp.com/',
     github: 'https://github.com/wailh/phone-ecommerce',
     category: 'featured',
   },
+
   // {
   //   id: 'tranquil-tofino-cabins',
   //   title: 'Tranquil Tofino Cabins',
@@ -86,7 +99,7 @@ export const rawProjectData = [
       'A portfolio website that was designed and developed as a platform to showcase my design and development skills as a front-end developer.',
     tags: ['React', 'HTML5'],
     thumbnailImgUrl: portfolioThumbImg,
-    livesite: 'https://wailh-portfolio.herokuapp.com/',
+    livesite: 'https://629af8b47918933ae4364674--wail-hamdi-portfolio.netlify.app/',
     github: 'https://github.com/wailh/Portfolio/tree/master',
     category: 'featured',
   },
