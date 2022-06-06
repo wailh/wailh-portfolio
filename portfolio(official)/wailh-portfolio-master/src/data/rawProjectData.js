@@ -99,7 +99,7 @@ export const rawProjectData = [
       'A portfolio website that was designed and developed as a platform to showcase my design and development skills as a front-end developer.',
     tags: ['React', 'HTML5'],
     thumbnailImgUrl: portfolioThumbImg,
-    livesite: 'https://wailh-portfolio.herokuapp.com/',
+    livesite: 'https://629af8b47918933ae4364674--wail-hamdi-portfolio.netlify.app/',
     github: 'https://github.com/wailh/Portfolio/tree/master',
     category: 'featured',
   },
