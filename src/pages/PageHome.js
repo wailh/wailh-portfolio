@@ -2,7 +2,6 @@ import { useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Helmet } from 'react-helmet-async';
-import { ReactComponent as LaptopCode } from '../globals/logos/laptop-code.svg';
 import { downArrow } from '../globals/icon';
 import Contact from '../components/Contact';
 import '../css-files/pages/_pageHome.css'
@@ -20,7 +19,7 @@ const PageHome = () => {
       transition={{ ease: 'easeInOut', duration: 0.3 }}
     >
       <Helmet>
-        <title>Hamdi Djihad | Web Developer</title>
+        <title>Hamdi Djihad - Front End Developer</title>
         <meta
           name="description"
           content="A portfolio site built in React by Djihad Hamdi, a Front-End Developer based in bab ezzouar, DZ, Algeria.
@@ -33,9 +32,8 @@ const PageHome = () => {
           data-aos="fade-up"
           data-aos-delay="200"
         >
-          <LaptopCode className="laptop-code-svg" />
           <div className="text">
-            <h1>I'm Djihad Hamdi</h1>
+            <h1>Djihad Hamdi</h1>
             <p>
               A <mark>front-end developer</mark> based in Bab Ezzouar, Algiers.
             </p>
