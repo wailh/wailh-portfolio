@@ -45,10 +45,10 @@ const PageWork = () => {
       transition={{ ease: 'easeInOut', duration: 0.3 }}
     >
       <Helmet>
-        <title>Djihad Hamdi | Work</title>
+        <title>wail | Work</title>
         <meta
           name="description"
-          content="A list of project thumbnails to showcase Djihad Hamdi's work as a Front-End Developer."
+          content="A list of project thumbnails to showcase wail's work as a Front-End Developer."
         />
       </Helmet>
       <section className="projects-intro" data-aos="fade-right">
