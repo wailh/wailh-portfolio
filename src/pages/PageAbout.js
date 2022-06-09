@@ -39,14 +39,14 @@ const PageAbout = () => {
         <title>Hamdi Djihad | About Me</title>
         <meta
           name="description"
-          content="A summary of Djihad Hamdi's background and technical skills as a Front-End Developer."
+          content="A summary of wail's background and technical skills as a Front-End Developer."
         />
       </Helmet>
       <section className="about-content">
         <div className="about-text">
           <h1 data-aos="fade-up">About Me.</h1>
           <p data-aos="fade-up" data-aos-delay="50">
-            I'm djihad(wail) hamdi My training and hands-on projects experience
+            I'm wail My training and hands-on projects experience
             at{' '}
             <abbr title="Constantine 2 University">BCIT</abbr>{' '}
             Front-End Web Developer Program, have allowed me to further develop
