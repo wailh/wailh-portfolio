@@ -39,18 +39,14 @@ const PageAbout = () => {
         <title>Hamdi Djihad | About Me</title>
         <meta
           name="description"
-          content="A summary of wail's background and technical skills as a Front-End Developer."
+          content="A summary of Djihad Hamdi's background and technical skills as a Front-End Developer."
         />
       </Helmet>
       <section className="about-content">
         <div className="about-text">
           <h1 data-aos="fade-up">About Me.</h1>
           <p data-aos="fade-up" data-aos-delay="50">
-            I'm wail My training and hands-on projects experience
-            at{' '}
-            <abbr title="Constantine 2 University">BCIT</abbr>{' '}
-            Front-End Web Developer Program, have allowed me to further develop
-            my passion and skillsets in the web development industry. With solid
+            I'm djihad(wail) hamdi, a Front-End Web Developer. With solid
             fundamentals in various front-end programming languages as well as
             web design, I mostly enjoy working with React JS, HTML5, CSS3,
             JavaScript and Adobe XD.
@@ -71,12 +67,13 @@ const PageAbout = () => {
               <li>CSS3</li>
               <li>JavaScript</li>
               <li>React</li>
+              <li>Nextjs</li>
               <li>jQuery</li>
               <li>Java</li>
               <li>Python</li>
               <li>PHP</li>
               <li>BootStrap</li>
-              <li>SQL</li>
+              <li>MYSQL</li>
               <li>Git/GitHub</li>
             </ul>
           </div>
