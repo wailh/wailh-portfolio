@@ -19,10 +19,10 @@ const PageHome = () => {
       transition={{ ease: 'easeInOut', duration: 0.3 }}
     >
       <Helmet>
-        <title>wailwail - Front End Developer</title>
+        <title>Djihad Hamdi - Front End Developer</title>
         <meta
           name="description"
-          content="A portfolio site built in React by wail, a Front-End Developer based in bab ezzouar, DZ, Algeria.
+          content="A portfolio site built in React by Djihad Hamdi, a Front-End Developer based in Bab ezzouar, DZ, Algeria.
            He has hands-on experience building websites from scratch, with a mobile-first approach. He likes React, JavaScript, HTML, CSS."
         />
       </Helmet>
