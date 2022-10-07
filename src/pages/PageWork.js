@@ -45,7 +45,7 @@ const PageWork = () => {
       transition={{ ease: 'easeInOut', duration: 0.3 }}
     >
       <Helmet>
-        <title>wail | Work</title>
+        <title>Djihad Hamdi | Work</title>
         <meta
           name="description"
           content="A list of project thumbnails to showcase wail's work as a Front-End Developer."
