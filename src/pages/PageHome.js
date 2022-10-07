@@ -33,7 +33,7 @@ const PageHome = () => {
           data-aos-delay="200"
         >
           <div className="text">
-            <h1>Wail</h1>
+            <h1>Djihad Hamdi</h1>
             <p>
               A <mark>front-end developer</mark> based in Bab Ezzouar, Algiers.
             </p>
