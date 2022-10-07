@@ -33,7 +33,7 @@ const Footer = () => {
         </a>
       </section>
 
-      <p>&copy; {getYear()} wail</p>
+      <p>&copy; {getYear()} Djihad Hamdi</p>
     </footer>
   );
 };
