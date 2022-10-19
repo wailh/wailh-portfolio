@@ -197,4 +197,9 @@ li {
   background-color: #edf2fb;
 }
 
+/*  styling specific for project MyEvent thumbnail */
+.project-thumbnail-myevent {
+  background-color: #72ff56;
+}
+
 
