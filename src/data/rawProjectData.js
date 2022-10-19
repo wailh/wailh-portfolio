@@ -97,6 +97,7 @@ export const rawProjectData = [
     tags: ['NextJs', 'ReactJs', 'Sanity', 'React-Hook-For'],
     thumbnailImgUrl: amazoneCloneThumbImg,
     livesite: 'https://wail-amazone-clone.vercel.app/',
+    github: 'https://github.com/wailh/wail-amazone-clone',
     category: 'featured',
   },
   {
@@ -107,6 +108,7 @@ export const rawProjectData = [
     tags: ['NextJs', 'ReactJs', 'Strapi'],
     thumbnailImgUrl: myeventThumbImg,
     livesite: 'https://myevent-zeta.vercel.app/',
+    github: 'https://github.com/wailh/MyEvent',
     category: 'featured',
   },
 
