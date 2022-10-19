@@ -4,6 +4,8 @@ import portfolioThumbImg from '../assets/assets/portfolio.PNG';
 import weatherAppThumbImg from '../assets/assets//weather.PNG';
 import phooneking from '../assets/assets//phooneking.PNG';
 import snackworld from '../assets/assets//snackworld.PNG';
+import amazoneCloneThumbImg from '../assets/assets//amazone-clone.PNG';
+import myeventThumbImg from '../assets/assets//myevent.PNG';
 
 
 export const rawProjectData = [
@@ -87,4 +89,25 @@ export const rawProjectData = [
   //   livesite: 'https://ztan.ca/gallery/',
   //   category: 'fun',
   // },
+      {
+    id: 'amazone',
+    title: 'Amazone Clone',
+    briefDescription:
+      'Following a youtube tutorial. Ive created A responsive ecommerce app, ',
+    tags: ['NextJs', 'ReactJs', 'Sanity', 'React-Hook-For'],
+    thumbnailImgUrl: amazoneCloneThumbImg,
+    livesite: 'https://wail-amazone-clone.vercel.app/',
+    category: 'featured',
+  },
+  {
+    id: 'myevent',
+    title: 'MyEvent',
+    briefDescription:
+      'myevent clone. Still in progress(have some deployment error relted to strapi) ',
+    tags: ['NextJs', 'ReactJs', 'Strapi'],
+    thumbnailImgUrl: myeventThumbImg,
+    livesite: 'https://myevent-zeta.vercel.app/',
+    category: 'featured',
+  },
+
 ];
