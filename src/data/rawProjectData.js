@@ -62,7 +62,7 @@ export const rawProjectData = [
     tags: ['React', 'HTML5'],
     thumbnailImgUrl: portfolioThumbImg,
     livesite: 'https://629af8b47918933ae4364674--wail-hamdi-portfolio.netlify.app/',
-    github: 'https://github.com/wailh/Portfolio/tree/master',
+    github: 'https://github.com/wailh/wailh-portfolio/blob/master',
     category: 'featured',
   },
 
