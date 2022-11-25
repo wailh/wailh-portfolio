@@ -23,7 +23,7 @@ const PageHome = () => {
         <title>Hamdi Djihad | Web Developer</title>
         <meta
           name="description"
-          content="A portfolio site built in React by Djihad Hamdi, a Front-End Developer based in bab ezzouar, DZ, Algeria.
+          content="A portfolio site built in React by Wail Hamdi, a Front-End Developer based in bab ezzouar, DZ, Algeria.
            He has hands-on experience building websites from scratch, with a mobile-first approach. He likes React, JavaScript, HTML, CSS."
         />
       </Helmet>
@@ -35,7 +35,7 @@ const PageHome = () => {
         >
           <LaptopCode className="laptop-code-svg" />
           <div className="text">
-            <h1>I'm Djihad Hamdi</h1>
+            <h1>I'm Wail Hamdi</h1>
             <p>
               A <mark>front-end developer</mark> based in Bab Ezzouar, Algiers.
             </p>
