@@ -36,17 +36,17 @@ const PageAbout = () => {
       transition={{ ease: 'easeInOut', duration: 0.3 }}
     >
       <Helmet>
-        <title>Hamdi Djihad | About Me</title>
+        <title>Hamdi Wail | About Me</title>
         <meta
           name="description"
-          content="A summary of Djihad Hamdi's background and technical skills as a Front-End Developer."
+          content="A summary of Wail Hamdi's background and technical skills as a Front-End Developer."
         />
       </Helmet>
       <section className="about-content">
         <div className="about-text">
           <h1 data-aos="fade-up">About Me.</h1>
           <p data-aos="fade-up" data-aos-delay="50">
-            I'm djihad(wail) hamdi, a Front-End Web Developer. With solid
+            I'm Wail hamdi, a Front-End Web Developer. With solid
             fundamentals in various front-end programming languages as well as
             web design, I mostly enjoy working with React JS, HTML5, CSS3,
             JavaScript and Adobe XD.
